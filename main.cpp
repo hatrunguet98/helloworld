@@ -11,7 +11,7 @@ vector<int> dynamicArray(int n, vector<vector<int>> queries) {
     int last = 0;
     vector<vector<int>>v(n);
     for(int i = 0; i< queries.size();i++){
-        int a = queries[i][0],b=queries[i][1],c=queries[i][2];
+        int a = queries[i][0],b=queries[i[1],c=queries[i][2];
         if(a==1)
             v[(b^last)%n].push_back(c);
         else 
